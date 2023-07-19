@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Brain-games project in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bersyatina/frontend-project-44.git"
+  },
+  "author": "bersyatina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bersyatina/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/bersyatina/frontend-project-44#readme"
+}
