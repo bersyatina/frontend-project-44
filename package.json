@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Brain-games project in JavaScript",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "test"
   },
