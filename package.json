@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/bersyatina/frontend-project-44#readme",
   "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
