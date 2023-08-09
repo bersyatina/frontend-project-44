@@ -14,3 +14,5 @@ When creating the project, the library was used: "readline-sync".
 ### Asciinemas Games:
 brain-even
 [![asciicast](https://asciinema.org/a/CBnZEt06o29r8vy3m0dml7syv.svg)](https://asciinema.org/a/CBnZEt06o29r8vy3m0dml7syv)
+brain-calc
+[![asciicast](https://asciinema.org/a/alSyh9BhHi8XFJMkeiTuD5gHI.svg)](https://asciinema.org/a/alSyh9BhHi8XFJMkeiTuD5gHI)
