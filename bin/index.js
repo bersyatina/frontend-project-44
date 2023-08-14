@@ -28,4 +28,13 @@ const playGame = (description, rounds) => {
   log(`Congratulations, ${userName}!`);
 };
 
-export { roundsCount, playGame };
+const setRounds = (prepareData) => {
+  const rounds = [];
+  for (let i = 1; i <= roundsCount; i += 1) {
+    const preparedData = prepareData();
+    rounds.push(preparedData);
+  }
+  return rounds;
+};
+
+export { playGame, setRounds };

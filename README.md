@@ -20,3 +20,5 @@ When creating the project, the library was used: "readline-sync".
 [![asciicast](https://asciinema.org/a/VveXLqpQLA4oBu76swRPai06J.svg)](https://asciinema.org/a/VveXLqpQLA4oBu76swRPai06J)
 4. brain-progression
 [![asciicast](https://asciinema.org/a/qy7DWfXb69xndmgzL6v3dT6l6.svg)](https://asciinema.org/a/qy7DWfXb69xndmgzL6v3dT6l6)
+5. brain-prime
+[![asciicast](https://asciinema.org/a/fW8f9D4eR4u6yjEdtytcNZlOt.svg)](https://asciinema.org/a/fW8f9D4eR4u6yjEdtytcNZlOt)

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { playGame, roundsCount } from '../index.js';
+import { playGame, setRounds } from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
@@ -21,11 +21,7 @@ const prepareData = () => {
 };
 
 const playGcdGame = () => {
-  const rounds = [];
-  for (let i = 1; i <= roundsCount; i += 1) {
-    rounds.push(prepareData());
-  }
-  playGame(description, rounds);
+  playGame(description, setRounds(prepareData));
 };
 
 playGcdGame();
