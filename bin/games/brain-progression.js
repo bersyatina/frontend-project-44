@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { playGame, setRounds } from '../index.js';
 
-const description = 'Find the greatest common divisor of given numbers.';
+const description = 'What number is missing in the progression?';
 
 const prepareData = () => {
   const start = 1;
