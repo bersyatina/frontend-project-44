@@ -12,9 +12,11 @@ When creating the project, the library was used: "readline-sync".
 [![Maintainability](https://api.codeclimate.com/v1/badges/88838db7b96ee1bf61f4/maintainability)](https://codeclimate.com/github/bersyatina/frontend-project-44/maintainability)
 
 ### Asciinemas Games:
-brain-even
+1. brain-even
 [![asciicast](https://asciinema.org/a/CBnZEt06o29r8vy3m0dml7syv.svg)](https://asciinema.org/a/CBnZEt06o29r8vy3m0dml7syv)
-brain-calc
+2. brain-calc
 [![asciicast](https://asciinema.org/a/alSyh9BhHi8XFJMkeiTuD5gHI.svg)](https://asciinema.org/a/alSyh9BhHi8XFJMkeiTuD5gHI)
-brain-gcd
+3. brain-gcd
 [![asciicast](https://asciinema.org/a/VveXLqpQLA4oBu76swRPai06J.svg)](https://asciinema.org/a/VveXLqpQLA4oBu76swRPai06J)
+4. brain-progression
+[![asciicast](https://asciinema.org/a/qy7DWfXb69xndmgzL6v3dT6l6.svg)](https://asciinema.org/a/qy7DWfXb69xndmgzL6v3dT6l6)

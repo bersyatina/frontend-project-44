@@ -23,8 +23,7 @@ const prepareData = () => {
 const playGcdGame = () => {
   const rounds = [];
   for (let i = 1; i <= roundsCount; i += 1) {
-    const preparedData = prepareData();
-    rounds.push(preparedData);
+    rounds.push(prepareData());
   }
   playGame(description, rounds);
 };

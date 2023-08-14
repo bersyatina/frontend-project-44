@@ -16,7 +16,7 @@ const calculate = (operator, firsNumber, lastNumber) => {
       result = firsNumber * lastNumber;
       break;
     default:
-      console.log('Неизвестный оператор!');
+      console.log('Operator unknown!');
   }
   return result;
 };
@@ -37,8 +37,7 @@ const prepareData = () => {
 const playCalcGame = () => {
   const rounds = [];
   for (let i = 1; i <= roundsCount; i += 1) {
-    const round = prepareData();
-    rounds.push(round);
+    rounds.push(prepareData());
   }
   playGame(description, rounds);
 };
