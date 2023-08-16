@@ -1,4 +1,5 @@
 import playGame from '../index.js';
+import random from '../random.js';
 
 const description = 'What is the result of the expression?';
 
@@ -20,12 +21,12 @@ const calculate = (operator, firsNumber, lastNumber) => {
   return result;
 };
 
-const prepareData = () => {
-  const firsNumber = Math.floor(Math.random() * 100);
-  const lastNumber = Math.floor(Math.random() * 100);
+const getPrepareData = () => {
+  const firsNumber = random(100);
+  const lastNumber = random(100);
 
   const operators = ['+', '-', '*'];
-  const operator = operators[Math.floor(Math.random() * operators.length)];
+  const operator = operators[random(operators.length)];
 
   const question = `${firsNumber} ${operator} ${lastNumber}`;
   const answer = String(calculate(operator, firsNumber, lastNumber));
@@ -34,7 +35,7 @@ const prepareData = () => {
 };
 
 const playCalcGame = () => {
-  playGame(description, prepareData);
+  playGame(description, getPrepareData);
 };
 
 export default playCalcGame;

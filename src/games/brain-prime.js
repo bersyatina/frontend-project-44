@@ -1,4 +1,5 @@
 import playGame from '../index.js';
+import random from '../random.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -18,14 +19,14 @@ const isPrime = (number) => {
   return answer;
 };
 
-const prepareData = () => {
-  const question = Math.floor(Math.random() * 100);
+const getPrepareData = () => {
+  const question = random(100);
   const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
 
 const playPrimeGame = () => {
-  playGame(description, prepareData);
+  playGame(description, getPrepareData);
 };
 
 export default playPrimeGame;
