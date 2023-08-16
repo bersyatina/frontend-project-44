@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-import { playGame, setRounds } from '../index.js';
+import playGame from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -22,11 +21,11 @@ const isPrime = (number) => {
 const prepareData = () => {
   const question = Math.floor(Math.random() * 100);
   const answer = isPrime(question) ? 'yes' : 'no';
-  return { question, answer };
+  return [question, answer];
 };
 
-const playEvenGame = () => {
-  playGame(description, setRounds(prepareData));
+const playPrimeGame = () => {
+  playGame(description, prepareData);
 };
 
-playEvenGame();
+export default playPrimeGame;

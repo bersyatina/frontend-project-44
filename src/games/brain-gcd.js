@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-import { playGame, setRounds } from '../index.js';
+import playGame from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
@@ -17,11 +16,11 @@ const prepareData = () => {
 
   const answer = String(firstNumber);
 
-  return { question, answer };
+  return [question, answer];
 };
 
 const playGcdGame = () => {
-  playGame(description, setRounds(prepareData));
+  playGame(description, prepareData);
 };
 
-playGcdGame();
+export default playGcdGame;

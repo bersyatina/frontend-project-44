@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-import { playGame, setRounds } from '../index.js';
+import playGame from '../index.js';
 
 const description = 'What number is missing in the progression?';
 
@@ -22,14 +21,11 @@ const prepareData = () => {
 
   const answer = String(answerNumber);
   const preparedQuestion = question.join(' ');
-  return {
-    question: preparedQuestion,
-    answer,
-  };
+  return [preparedQuestion, answer];
 };
 
 const playProgressionGame = () => {
-  playGame(description, setRounds(prepareData));
+  playGame(description, prepareData);
 };
 
-playProgressionGame();
+export default playProgressionGame;

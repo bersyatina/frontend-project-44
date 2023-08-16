@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-import { playGame, setRounds } from '../index.js';
+import playGame from '../index.js';
 
 const description = 'What is the result of the expression?';
 
@@ -31,11 +30,11 @@ const prepareData = () => {
   const question = `${firsNumber} ${operator} ${lastNumber}`;
   const answer = String(calculate(operator, firsNumber, lastNumber));
 
-  return { question, answer };
+  return [question, answer];
 };
 
 const playCalcGame = () => {
-  playGame(description, setRounds(prepareData));
+  playGame(description, prepareData);
 };
 
-playCalcGame();
+export default playCalcGame;
